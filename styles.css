@@ -1,0 +1,114 @@
+body {
+    /* background-color: rgb(3, 180, 180);*/
+    font-family: "Kumbh Sans", sans-serif;
+    background:
+    url(images/pxfuel.jpg) center fixed; /* Layer 2 - Fixed background */
+    background-size: cover; /*Resize the background image to cover the entire container*/
+}
+
+h1, h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.circular {
+    border-radius: 100%;
+}
+
+/*Containers*/
+.container {
+    background-color: #fff;
+    max-width: 350px;
+    margin: 13% auto 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0;
+}
+
+/*Profile card*/
+.profile-card {
+    text-align: center;
+    position: relative;
+}
+
+
+.profile-header img {
+    width: 100%;
+    height: auto;
+}
+
+.profile-pic {
+    border: 5px solid #fff;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 24%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.text-area {
+    padding: 80px 20px 20px;
+}
+
+.age-class {
+    font-weight: 500;
+    margin-left: 2%;
+}
+
+.age-class, .location {
+    color: hsl(0, 0%, 59%);
+}
+
+.location {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+hr {
+    margin: 0 -9% 8px -6%;
+}
+
+/*Stats section*/
+.stats {
+    position: relative;
+    left: 0%;
+    padding: 0 9% 1%;
+    margin: 0;
+}
+
+.stats h2 {
+    margin-bottom: 5px;
+}
+
+.stats p {
+    font-size: 13px;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+
+/* Footer section */
+footer.attribution {
+    color: ghostwhite;
+    width: 100%;
+    padding: 20px;
+    margin-top: 42px;
+    text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .container {
+        margin-top: 40%;
+    }
+}
+    
+
+@media only screen and (max-width: 768px) {
+    .attribution {
+        display: none;
+    }
+}
+
+
