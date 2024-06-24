@@ -65,7 +65,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 -`col-4` : to divide the .stats section into three equal columns, ensuring a responsive layout across different screen sizes.
 
 
-2.**Creaing a Wrapped Effect of the Header and Profile Picture:**
+2. **Creaing a Wrapped Effect of the Header and Profile Picture:**
  ```css
 .profile-pic {
     border: 5px solid #fff;
@@ -78,7 +78,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
     transform: translateX(-50%);
 }
 ```
-Here I used:
+  Here I used:
 - `border: 5px solid #fff;`: Adds a 5px white solid border around .profile-pic for a clear boundary against its background.
 - `transform: translateX(-50%);`: Centers the .profile-pic horizontally by translating it 50% of its own width to the left.
 
