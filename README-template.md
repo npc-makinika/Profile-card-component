@@ -28,8 +28,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [https://github.com/andr-ch/Profile-card-component.git](https://github.com/andr-ch/Profile-card-component.git)
-- Live Site URL: [https://andr-ch.github.io/Profile-card-component/](https://andr-ch.github.io/Profile-card-component/)
+- Solution URL: [https://github.com/npc-makinika/Profile-card-component.git](https://github.com/npc-makinika/Profile-card-component.git)
+- Live Site URL: [https://npc-makinika.github.io/Profile-card-component/](https://npc-makinika.github.io/Profile-card-component/)
 
 ## My process
 
